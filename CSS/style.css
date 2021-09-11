@@ -1,0 +1,338 @@
+/* font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif; */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.logo{
+    width: 30%;
+}
+nav{
+    width: 50%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    color: #626262;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family: 'Playfair Display';
+}
+.banner{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.banner img{
+    width: 100%;
+
+}
+.photodiary{
+    text-transform: capitalize;
+    margin-left: 5%;
+    width: 90%;
+
+}
+.photodiary h5{
+    font-family: 'Ubuntu';
+    color: #b4ad9e;
+    padding: 30px;
+    font-size: 15px;
+
+}
+.photodiary h1{
+    font-family: 'Playfair Display';
+    color: #626262;
+    font-size: 30px;
+    padding: 20px;
+
+}
+.photodiary P{
+    font-family: 'Playfair Display';
+    color: #626262;
+    padding: 10px;
+
+
+}
+.photodiary h6{
+    font-family: 'Ubuntu';
+    color: #b4ad9e;
+    padding: 30px;
+    font-size: 15px;
+
+
+}
+.lifestyle{
+    text-transform: capitalize;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.lifestyle-one{
+    text-transform: capitalize;
+ width: 40%;
+}
+.lifestyle-one img{
+    width: 100%;
+}
+.lifestyle-one h5{
+    font-family: 'Ubuntu';
+    color: #b4ad9e;
+    padding: 30px;
+    font-size: 15px;
+
+}
+.lifestyle-one h1{
+    font-family: 'Playfair Display';
+    color: #626262;
+    font-size: 30px;
+    padding: 20px;
+}
+.lifestyle-one p{
+    font-family: 'Playfair Display';
+    color: #626262;
+    padding: 10px;
+
+}
+.lifestyle-two{
+    width: 40%;
+
+}
+.lifestyle-two img{
+    width: 100%
+
+}
+.lifestyle-two h5{ 
+    font-family: 'Ubuntu';
+    color: #b4ad9e;
+    padding: 30px;
+    font-size: 15px;
+
+}
+.lifestyle-two h1{
+    font-family: 'Playfair Display';
+    color: #626262;
+    font-size: 30px;
+    padding: 20px;
+
+}
+.lifestyle-two p{
+    font-family: 'Playfair Display';
+    color: #626262;
+    padding: 10px;
+    
+}
+.lifestyle-three{
+    width: 40%;
+
+}
+.lifestyle-three img{
+    margin-top: 10%;
+    width: 100%;
+
+}
+.lifestyle-three h5{ 
+    font-family: 'Ubuntu';
+    color: #b4ad9e;
+    padding: 30px;
+    font-size: 15px;
+
+}
+.lifestyle-three h1{
+    font-family: 'Playfair Display';
+    color: #626262;
+    font-size: 30px;
+    padding: 20px;
+
+}
+.lifestyle-three p{
+    font-family: 'Playfair Display';
+    color: #626262;
+    padding: 10px;
+    
+}.lifestyle-four{
+    width: 40%;
+
+}
+.lifestyle-four img{
+    margin-top: 10%;
+    width: 100%
+
+}
+.lifestyle-four h5{ 
+    font-family: 'Ubuntu';
+    color: #b4ad9e;
+    padding: 30px;
+    font-size: 15px;
+
+}
+.lifestyle-four h1{
+    font-family: 'Playfair Display';
+    color: #626262;
+    font-size: 30px;
+    padding: 20px;
+
+}
+.lifestyle-four p{
+    font-family: 'Playfair Display';
+    color: #626262;
+    padding: 10px;
+    
+}
+.newslater{
+    margin-top: 15%;
+    background-color: #f0f0f0;
+    padding: 100px 0px;
+    
+}
+.newslater-one{
+
+    width: 35%;
+    margin: auto;
+}
+.newslater-one h1{
+    color: #626262;
+    font-size: 40px;
+
+}
+.newslater-one input{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-top: 50px;  
+}
+.newslater-one input:focus{
+    outline: none;
+}
+.newslater-one input::placeholder{
+    color: #626262;
+}
+.lifestyle-numbers{ 
+    text-transform: capitalize;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.lifestyle-5{
+    width: 40%;
+
+}
+.lifestyle-5 img{
+    margin-top: 10%;
+    width: 100%
+
+}
+.lifestyle-5 h5{ 
+    font-family: 'Ubuntu';
+    color: #b4ad9e;
+    padding: 30px;
+    font-size: 15px;
+
+}
+.lifestyle-5 h1{
+    font-family: 'Playfair Display';
+    color: #626262;
+    font-size: 30px;
+    padding: 20px;
+
+}
+.lifestyle-5 p{
+    font-family: 'Playfair Display';
+    color: #626262;
+    padding: 10px;
+}
+.lifestyle-6{
+    width: 40%;
+
+}
+.lifestyle-6 img{
+    margin-top: 10%;
+    width: 100%
+
+}
+.lifestyle-6 h5{ 
+    font-family: 'Ubuntu';
+    color: #b4ad9e;
+    padding: 30px;
+    font-size: 15px;
+
+}
+.lifestyle-6 h1{
+    font-family: 'Playfair Display';
+    color: #626262;
+    font-size: 30px;
+    padding: 20px;
+
+}
+.lifestyle-6 p{
+    font-family: 'Playfair Display';
+    color: #626262;
+    padding: 10px;
+}
+.click{
+   padding: 100px 0px;
+   text-align: center;
+}
+.click button{
+    background: transparent;
+    border: none;
+    border: 1px solid black;
+    font-size: 23px;
+    color: #626262;
+}
+footer{
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.footer-0ne{
+    width:  20%;  
+    margin-left: 5%;
+}
+.footer-0ne ul{ 
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-0ne ul li{
+    color: #626262;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Playfair Display';
+
+}
+.footer-two{
+    width: 20%;
+    margin-right: 5%;
+
+}
+.footer-two ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer-two ul li{
+    color: #626262;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Playfair Display';
+
+}
